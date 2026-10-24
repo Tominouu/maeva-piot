@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Maëva Piot — Portfolio</title>
+  <meta name="description" content="Maëva Piot, étudiante en BUT Métiers du Multimédia et de l'Internet à Bordeaux : photographie, vidéo, design et développement web.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;800&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="page">
+
+    <header class="section hero">
+      <img class="hero__fond plein-ecran" src="assets/img/hero.webp" alt="Maëva Piot souriante sur un chemin de campagne au coucher du soleil" fetchpriority="high">
+
+      <nav class="nav" aria-label="Navigation principale">
+        <a class="nav__portrait" href="#presentation"><img src="assets/svg/nav-portrait.svg" alt="Portrait"></a>
+        <a class="nav__projets" href="projets.html"><img src="assets/svg/nav-projets.svg" alt="Projets"></a>
+        <a class="nav__contact" href="mailto:maeva.piot@mmibordeaux.com">
+          <img class="contour" src="assets/svg/nav-contour.svg" alt="">
+          <img class="libelle" src="assets/svg/nav-on-discute.svg" alt="On discute ?">
+        </a>
+      </nav>
+
+      <h1 class="hero__titre"><img src="assets/svg/titre-maeva-piot.svg" alt="Maëva Piot"></h1>
+      <p class="hero__sous-titre hero__sous-titre--gauche"><img src="assets/svg/sous-titre-gauche.svg" alt="Étudiante en BUT Métiers du Multimédia et de l'Internet"></p>
+      <p class="hero__sous-titre hero__sous-titre--droite"><img src="assets/svg/sous-titre-droite.svg" alt="Photographie, vidéo, design, développement web"></p>
+      <img class="hero__fleche" src="assets/svg/nav-vector98.svg" alt="">
+
+      <div class="hero__boutons">
+        <a class="btn-hero btn-hero--portrait" href="#presentation">
+          <img src="assets/svg/btn-portrait.svg" alt="">
+          <span>Portrait</span>
+        </a>
+        <a class="btn-hero btn-hero--projets" href="projets.html">
+          <img src="assets/svg/btn-projets-fond.svg" alt="">
+          <img src="assets/svg/btn-projets-contour.svg" alt="">
+          <span>Projets</span>
+        </a>
+      </div>
+    </header>
+
+    <main>
+      <section class="section presentation" id="presentation">
+        <div class="presentation__texte reveal">
+          <p>Je suis Maëva, étudiante passionnée par la photo et la vidéo, basée à Bordeaux.</p>
+          <p>J’ai toujours adoré capturer ce qui m’entoure. Aujourd’hui, je souhaite faire de ma passion un outil pour promouvoir les entreprises.</p>
+          <p>Mon objectif : retranscrire vos idées à travers des créations visuelles et digitales impactantes tout en m’imprégnant de votre univers.</p>
+        </div>
+      </section>
+
+      <section class="section chiffres" aria-label="Quelques chiffres">
+        <div class="chiffres__fond crop plein-ecran"><img src="assets/img/ciel.webp" alt="" loading="lazy"></div>
+        <img class="chiffres__svg chiffres__svg--groupe" src="assets/svg/stats-19-infini.svg" alt="19 ans de vie, 2 ans en BUT MMI, une envie infinie d’expérimenter">
+        <img class="chiffres__svg chiffres__svg--deux" src="assets/svg/stats-2-ans.svg" alt="">
+        <div class="chiffres__html" aria-hidden="true">
+          <div><strong>19 ans</strong><span>de vie</span></div>
+          <div><strong>2 ans</strong><span>en BUT MMI</span></div>
+          <div><strong>∞</strong><span>envie d’expérimenter</span></div>
+        </div>
+      </section>
+
+      <section class="section exploration">
+        <p class="reveal">J’explore l’audiovisuel, la communication, le design et le développement web.</p>
+      </section>
+    </main>
+
+    <footer class="section footer">
+      <img class="footer__fond plein-ecran" src="assets/img/footer-bg.webp" alt="" loading="lazy">
+      <p class="footer__accroche"><span class="texte-degrade">Vous ressentez. Je crée.</span><span class="texte-degrade">Nous racontons.</span></p>
+      <nav class="footer__colonnes" aria-label="Liens du pied de page">
+        <ul class="footer__col footer__col--nav">
+          <li><a class="texte-degrade" href="index.html">Accueil</a></li>
+          <li><a class="texte-degrade" href="projets.html">Projets</a></li>
+        </ul>
+        <ul class="footer__col footer__col--reseaux">
+          <!-- TODO : renseigner les liens Instagram et LinkedIn -->
+          <li><a class="texte-degrade" href="#" target="_blank" rel="noopener">Instagram</a></li>
+          <li><a class="texte-degrade" href="#" target="_blank" rel="noopener">Linkedin</a></li>
+          <li><a class="texte-degrade" href="mailto:maeva.piot@mmibordeaux.com">Email</a></li>
+        </ul>
+        <ul class="footer__col">
+          <li class="texte-degrade">Bordeaux, France</li>
+          <li class="texte-degrade">Ile de la Réunion</li>
+        </ul>
+      </nav>
+      <div class="footer__carte">
+        <img class="cadre" src="assets/svg/cadre-portrait.svg" alt="">
+        <img class="photo" src="assets/img/portrait-maeva.webp" alt="Portrait de Maëva Piot" loading="lazy">
+      </div>
+      <p class="footer__nom" aria-hidden="true">Maëva</p>
+      <img class="footer__ligne" src="assets/svg/ligne-footer.svg" alt="">
+      <a class="footer__contact" href="mailto:maeva.piot@mmibordeaux.com">Et si on discutait ?</a>
+    </footer>
+
+  </div>
+  <script src="js/main.js"></script>
+</body>
+</html>
